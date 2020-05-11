@@ -33,7 +33,9 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
   if(botRegex.test(request.text)){
-  botResponse = cool();}
+  botResponse = cool();
+  botResponse = cool();
+}
   if(fuLuis.test(request.text)){
     botResponse = cool();}
 
